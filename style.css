@@ -156,3 +156,44 @@ body{
 .nav-btn:hover{
     opacity:.9;
 }
+
+@media (max-width: 768px){
+
+    .hero{
+        background-position: center right;
+        align-items: flex-start;
+        min-height: 100vh;
+    }
+
+    .hero-content{
+        max-width: 90%;
+        margin-left: 28px;
+        margin-top: 260px;
+    }
+
+    .hero h1{
+        font-size: 2.6rem;
+        line-height: 1.08;
+        margin-bottom: 28px;
+    }
+
+    .hero p{
+        font-size: 1.05rem;
+        line-height: 1.5;
+        max-width: 330px;
+        margin-bottom: 34px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        gap: 12px;
+        max-width: 260px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width: 100%;
+        text-align: center;
+        padding: 14px 20px;
+    }
+}
